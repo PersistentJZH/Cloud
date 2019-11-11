@@ -15,7 +15,7 @@ string=tcg(text)
 
 img = Image.open(path+r'\background.jpg') #打开图片
 img_array = np.array(img) #将图片装换为数组
-stopword=['']  #设置停止词，也就是你不想显示的词，这里这个词是我前期处理没处理好，你可以删掉他看看他的作用
+stopword=['']  #设置停止词，也就是你不想显示的词
 wc = WordCloud(
     background_color='white',
     width=1000,
